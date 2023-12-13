@@ -9,6 +9,7 @@ import Login from './components/login/login';
 import Register from './components/register/register';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -33,6 +34,7 @@ function PageLayout() {
           <Route path="/login" element={<Login setLoginUser={setLoginUser} />} />
           <Route path="/register" element={<Register />} />
           <Route path="/home" element={<Home />} />
+
         </Routes>
       </div>
     </>

@@ -1,0 +1,48 @@
+/* Navbar.css */
+
+/* General container styling */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: white;
+  }
+  
+  /* Styling for the heading */
+  h1 {
+    margin: 0;
+    font-size: 3em;
+    color: black;
+    
+  }
+  
+  /* Link styling */
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #2f9fa3;
+  }
+  
+  /* Button styling */
+  .button-home {
+    padding: 10px 15px;
+    background-color: #187485;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+    position: right;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-home:hover {
+    background-color: #367c39;
+  }
+  
